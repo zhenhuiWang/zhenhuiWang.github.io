@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fe817d;
+  background: #ffa808;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2658,4 +2658,31 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.header {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg") no-repeat;
+  background-size: contain;
+  background-color: #000;
+  background-position: center;
+  width: 100%;
+  display: table;
+}
+.site-title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  font-size: 35px;
+  font-weight: normal;
+  font-family: 'Lobster', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.brand {
+  background: transparent;
+}
+.site-subtitle {
+  color: #fff;
+}
+.menu .menu-item a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
 }
