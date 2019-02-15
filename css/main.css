@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d1fa37;
+  background: #d7fffa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2659,9 +2659,13 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+@font-face {
+  font-family: Lobster;
+  src: url("/fonts/Lobster-Regular.ttf");
+}
 .header {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg") no-repeat;
-  background-size: contain;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/banner.jpg") no-repeat;
+  background-size: 100% 100%;
   background-color: #000;
   background-position: center;
   width: 100%;
@@ -2686,10 +2690,16 @@ embed {
   font-weight: bold;
   font-size: 15px;
 }
+.menu .menu-item a:hover {
+  border-bottom-color: #fff;
+}
 @media (max-width: 767px) {
   .menu {
     text-align: center;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  }
+  .menu .menu-item a:hover {
+    border-bottom-color: transparent;
   }
   .site-nav {
     background-color: rgba(0,0,0,0.75);
